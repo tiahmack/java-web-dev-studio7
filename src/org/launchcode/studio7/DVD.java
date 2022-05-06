@@ -1,10 +1,20 @@
 package org.launchcode.studio7;
 
-public class DVD {
+public class DVD extends BaseDisk implements Spinnable {
+    private String studio;
 
-    // TODO: Implement your custom interface.
+    @Override
+    public void spinDisk() {
 
-    // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
-    //  need to be declared separately.
+    }
 
+    @Override
+    public void readDisc() {
+
+    }
+
+    @Override
+    public String titleScreen() {
+        return "This DVD is called...";
+    }
 }
